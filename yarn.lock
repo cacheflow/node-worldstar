@@ -206,6 +206,10 @@ hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
 
+html-entities@^1.1.3:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.2.1.tgz#0df29351f0721163515dfb9e5543e5f6eed5162f"
+
 htmlparser2@^3.9.1:
   version "3.9.2"
   resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-3.9.2.tgz#1bdf87acca0f3f9e53fa4fcceb0f4b4cbb00b338"
@@ -276,6 +280,12 @@ lodash@^4.15.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
+m3u8stream@^0.1.1:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/m3u8stream/-/m3u8stream-0.1.3.tgz#ffcba7f4f37513c982cc45785e8a0d7d7448c39d"
+  dependencies:
+    miniget "^1.0.0"
+
 mime-db@~1.30.0:
   version "1.30.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.30.0.tgz#74c643da2dd9d6a45399963465b26d5ca7d71f01"
@@ -285,6 +295,10 @@ mime-types@^2.1.12, mime-types@~2.1.7:
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.17.tgz#09d7a393f03e995a79f8af857b70a9e0ab16557a"
   dependencies:
     mime-db "~1.30.0"
+
+miniget@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/miniget/-/miniget-1.0.1.tgz#6dc768ac6f43ecd097a443428ab7f2d373ad296d"
 
 nth-check@~1.0.1:
   version "1.0.1"
@@ -361,6 +375,10 @@ safe-buffer@^5.0.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
+sax@^1.1.3:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+
 sntp@1.x.x:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/sntp/-/sntp-1.0.9.tgz#6541184cc90aeea6c6e7b35e2659082443c66198"
@@ -422,3 +440,12 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
+
+ytdl-core@^0.17.1:
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/ytdl-core/-/ytdl-core-0.17.1.tgz#0d2cbe666b152cedbb20c87c7739875bf85b238c"
+  dependencies:
+    html-entities "^1.1.3"
+    m3u8stream "^0.1.1"
+    miniget "^1.0.0"
+    sax "^1.1.3"
