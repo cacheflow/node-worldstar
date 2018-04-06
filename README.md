@@ -1,8 +1,9 @@
-![How Sway](https://media.giphy.com/media/hf6rn6G1jFW7u/giphy.gif)
 
 # node-worldstar
 
 Download worldstarhiphop videos
+
+![How Sway](https://media.giphy.com/media/hf6rn6G1jFW7u/giphy.gif)
 
 ## Installation
 npm install node-worldstar
