@@ -1,9 +1,10 @@
 {
   "name": "node-worldstar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.js",
   "license": "MIT",
   "author": "Lex Alexander",
+  "description": "Download worldstarhiphop videos",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "cli-progress": "^1.8.0",
