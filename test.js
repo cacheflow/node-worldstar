@@ -14,8 +14,6 @@ describe('nodeWorldstar function', function() {
   it('should throw an error when a user passes an invalid url', function() {
     let err = "Not a valid url."
     let func = nodeWorldstar("//https://dsxassadsds")
-    let arr = nodeWorldstar(["//https://dsxassadsds"])
-    arr.then(res => res).catch(e => expect(e).to.throw(Error, err))
     func.then(res => res).catch(e => expect(e).to.throw(Error, err))
   })
 
@@ -26,4 +24,3 @@ describe('nodeWorldstar function', function() {
     return expect(isCreated).to.be.equal(true)
   });
 })
- 

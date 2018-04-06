@@ -1,7 +1,7 @@
 {
   "name": "node-worldstar",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "license": "MIT",
   "author": "Lex Alexander",
   "dependencies": {
@@ -14,11 +14,19 @@
   "scripts": {
     "test": "mocha ./test.js --verbose"
   },
+  "keywords": [
+    "node",
+    "worldstar",
+    "node worldstar",
+    "worldstarhiphop",
+    "node worldstarhiphop"
+  ],
   "devDependencies": {
     "assert": "^1.4.1",
     "ava": "^0.25.0",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
@@ -28,6 +36,6 @@
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "chai-stream": "0.0.0",
-    "mocha": "^5.0.5"
+    "mocha": "^5.0.5",
   }
 }
