@@ -24,7 +24,7 @@ npm install --save node-worldstar
 `node example`
 
 ## Tests
-Tests are written with [Mocha](http://visionmedia.github.com/mocha/) and can be
+Tests are written with [Mocha](http://mochajs.org/) and can be
 run with `yarn run test`.
 
 ## License
